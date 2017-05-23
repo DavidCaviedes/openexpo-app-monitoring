@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="jobs" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:content</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>8d3f6ab9-692e-4263-80ad-ccec4c9f6158</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2017-04-26T13:10:53.691+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2017-04-26T13:10:53.690+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="cleanTempFiles">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>45e94e37-db41-48cf-8715-6b76b4cdf061</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>cleanTempFiles</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0 0 0/12 1/1 * ? *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>cleans temp files older than 12 hours once per 12 hours</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2015-09-09T15:31:54.467+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2015-09-09T15:31:54.476+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2015-09-09T15:47:53.531+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="retrieveData">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a90fba71-a6a6-4a48-9ace-1bcfbd2a6ab9</sv:value>
+    </sv:property>
+    <sv:property sv:name="catalog" sv:type="String">
+      <sv:value>retrieveData</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>retrieveData</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0/30 * * 1/1 * ? *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>cleans temp files older than 12 hours once per 12 hours</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2017-05-17T15:50:35.524+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-05-17T15:50:35.566+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2017-05-17T15:54:36.653+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="demo">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>69628f5d-26b8-49b9-8e26-dddb7289e1cb</sv:value>
+    </sv:property>
+    <sv:property sv:name="catalog" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>activate</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0 0 * * * *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>activate each hour the page news.html</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2006-12-18T11:36:12.515+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2006-12-18T11:36:20.254+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2006-12-18T15:43:15.193+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="params">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cd342e8d-cc38-456d-aebe-a38e6dcf6a1b</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2006-12-18T11:37:00.012+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2006-12-18T11:37:05.362+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2006-12-18T15:34:21.707+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="path" sv:type="String">
+        <sv:value>/news</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>website</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="generatePlanetData">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3512d741-d7cb-48bd-b183-97b3bb7b9a1b</sv:value>
+    </sv:property>
+    <sv:property sv:name="catalog" sv:type="String">
+      <sv:value>planet</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>generatePlanetData</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0 0/10 * 1/1 * ? *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>generate data for RSS planet</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2006-12-18T11:36:12.515+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2006-12-18T11:36:20.254+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2013-02-13T13:39:59.198+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="params">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>72d9b3d4-8c45-4640-9462-b5d314890bfa</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2006-12-18T11:37:00.012+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2006-12-18T11:37:05.362+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2013-10-24T10:31:40.890+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>rss</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="collectPlanetStatistics">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>225e99d5-7000-4e21-bada-7bc6580c13ac</sv:value>
+    </sv:property>
+    <sv:property sv:name="catalog" sv:type="String">
+      <sv:value>planet</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>collectPlanetStatistics</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0 0/18 * 1/1 * ? *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>generate statistics for RSS planet</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2006-12-18T11:36:12.515+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2006-12-18T11:36:20.254+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2013-02-13T13:40:49.557+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="params">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9f935411-34ac-4238-9d25-5966fd7a70f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2006-12-18T11:37:00.012+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2006-12-18T11:37:05.362+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2013-10-24T10:31:35.132+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>rss</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="removeCategories">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>dda99842-084d-46f9-a6d5-38ee62064f37</sv:value>
+    </sv:property>
+    <sv:property sv:name="catalog" sv:type="String">
+      <sv:value>categorization</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>removeCategories</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0 0 * * * *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>removes categories from website</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:node sv:name="params">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>aa64291e-68c7-40be-9d82-0fb0fd25113e</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2006-12-18T11:37:00.012+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2006-12-18T11:37:05.362+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2009-03-03T13:37:07.019+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="path" sv:type="String">
+        <sv:value>/demo-project</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>website</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="generateCategories">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>69628f5d-26b8-49b9-8e26-dddb7289e1cc</sv:value>
+    </sv:property>
+    <sv:property sv:name="catalog" sv:type="String">
+      <sv:value>categorization</sv:value>
+    </sv:property>
+    <sv:property sv:name="command" sv:type="String">
+      <sv:value>generateCategories</sv:value>
+    </sv:property>
+    <sv:property sv:name="cron" sv:type="String">
+      <sv:value>0 0 * * * *</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>generate categories</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:node sv:name="params">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cd342e8d-cc38-456d-aebe-a38e6dcf6a1c</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2006-12-18T11:37:00.012+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2006-12-18T11:37:05.362+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2009-03-03T13:37:07.019+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="path" sv:type="String">
+        <sv:value>/demo-project</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>website</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

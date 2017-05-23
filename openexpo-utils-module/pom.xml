@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+	  <groupId>com.rd</groupId>
+	  <artifactId>vaadinmodule</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>com.rd.utils</groupId>
+  <artifactId>openexpo-utils-module</artifactId>
+  <packaging>jar</packaging>
+  <name>openexpo-utils-module Magnolia Module</name>
+  <!--
+  <description>Please uncomment and fill in ...</description>
+  -->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jackson.version>2.7.0</jackson.version>
+  </properties>
+
+  <dependencies>
+
+	<dependency>
+		<groupId>info.magnolia</groupId>
+		<artifactId>magnolia-core</artifactId>
+	</dependency>
+
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>servlet-api</artifactId>
+		<scope>provided</scope>
+	</dependency>
+
+	<!-- AWS SDK -->
+	<dependency>
+		<groupId>com.amazonaws</groupId>
+		<artifactId>aws-java-sdk</artifactId>
+		<version>1.11.68</version>
+	</dependency>
+
+	<!-- Hay que agregar estas dependencias de jackson a mano ya que las versiones que incluye la SDK de AWS dan problemas y 
+	al intentar obtener el AmazonDynamoDBClient da el siguiente error:
+	java.lang.NoSuchMethodError: com.fasterxml.jackson.databind.JavaType.isReferenceType
+	Mas info: https://github.com/FasterXML/jackson-databind/#get-it -->
+	<dependency>
+		<!-- Note: core-annotations version x.y.0 is generally compatible with 
+			(identical to) version x.y.1, x.y.2, etc. -->
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-annotations</artifactId>
+		<version>${jackson.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-core</artifactId>
+		<version>${jackson.version}</version>
+	</dependency>
+    
+    <dependency>
+      <groupId>info.magnolia.ui</groupId>
+      <artifactId>magnolia-ui-contentapp</artifactId>
+    </dependency>
+    
+    <dependency>
+	  <groupId>info.magnolia</groupId>
+	  <artifactId>magnolia-module-mail</artifactId>
+	  <version>5.4.1</version>
+	</dependency>
+
+	<!-- Paged table for Vaadin -->
+	<dependency>
+		<groupId>org.vaadin.addons</groupId>
+		<artifactId>pagedtable</artifactId>
+		<version>0.6.5</version>
+	</dependency>
+	
+    <dependency>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-services</artifactId>
+      <scope>provided</scope>
+    </dependency>
+		
+	<dependency>
+		<groupId>org.json</groupId>
+		<artifactId>json</artifactId>
+		<version>20160810</version>
+	</dependency>
+	    
+    <!-- Enterprise Security API -->
+    <dependency>
+	    <groupId>org.owasp.esapi</groupId>
+	    <artifactId>esapi</artifactId>
+	    <version>2.1.0.1</version>
+	</dependency>
+
+    <!-- TEST -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${javaVersion}</source>
+          <target>${javaVersion}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <!-- default resources configuration which will filter the module descriptor -->
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+      </resource>
+      <resource>
+        <filtering>true</filtering>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>META-INF/magnolia/*</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+
+  <version>1.0-SNAPSHOT</version>
+</project>

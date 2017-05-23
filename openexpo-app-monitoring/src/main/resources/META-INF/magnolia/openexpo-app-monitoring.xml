@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>openexpo-app-monitoring</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <class>com.rd.monitoring.OpenExpoAppMonitoring</class>
+  <versionHandler>com.rd.monitoring.setup.OpenExpoAppMonitoringVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+	<!-- Esta declaración se aprovecha para la IoC/DI -->
+	<components>
+		<id>main</id> <!-- Container ID: no funciona si ponemos otro container que no sea el main -->
+		<component>
+			<type>com.rd.monitoring.subapp.MonitoringMainSubappView</type>
+			<implementation>com.rd.monitoring.subapp.MonitoringMainSubappViewImpl</implementation>
+		</component>
+		<component>
+			<type>com.rd.monitoring.ui.IFactoriaElementosUI</type>
+			<implementation>com.rd.monitoring.ui.FactoriaElementosUI</implementation>
+		</component>
+	</components>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>5.5/*</version>
+    </dependency>
+    <!--  Add other dependencies here, e.g the mte (magnolia templating essentials).
+    <dependency>
+      <name>mte</name>
+      <version>0.7/*</version>
+    </dependency>
+    -->
+  </dependencies>
+</module>

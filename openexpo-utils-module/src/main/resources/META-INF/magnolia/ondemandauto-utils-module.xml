@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+	<name>openexpo-utils-module</name>
+	<displayName>${project.name}</displayName>
+	<description>${project.description}</description>
+	<class>com.rd.utils.OpenExpoUtilsModule</class>
+	<versionHandler>com.rd.utils.setup.OpenExpoUtilsModuleVersionHandler</versionHandler>
+	<version>${project.version}</version>
+
+	<components>
+		<id>main</id> <!-- Container ID -->
+	</components>
+
+
+	<!-- Dependencias entre modulos (en tiempo de runtime o install solamente): 
+	Definen el orden de instalacion de los modulos, es decir, los modulos aqui indicados como dependencias 
+	se instalaran antes que el modulo al que pertenece este descriptor.
+	Aqui pondremos todos los modulos en los que instalamos algo en la fase de bootstraping, para evitar 
+	que nuestro modulo se instale antes que los otros y se sobreescriba lo que importamos nosotros.
+	Nota: el "name" en la dependencia es el nombre indicado en el descriptor del modulo (el mismo que aparece 
+	en Admincentral/modules/nombreModuloX) 
+	 -->
+	<dependencies>
+		<dependency>
+			<name>core</name>
+			<version>5.5/*</version>
+		</dependency>
+		
+		<dependency>
+			<name>ui-admincentral</name>
+			<version>5.5.0/*</version>
+		</dependency>
+		
+		<!-- Add other dependencies here, e.g the mte (magnolia templating essentials). 
+			<dependency> <name>mte</name> <version>0.7/*</version> </dependency> -->
+	</dependencies>
+</module>

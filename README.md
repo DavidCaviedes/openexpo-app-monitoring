@@ -6,7 +6,17 @@
 
 Este repositorio recoge un proyecto completo con la versión _Magnolia Community Edition (CE)_ y un módulo con la aplicación creada para participar en el **RETO VAADIN: Demuestra qué sabes de Vaadin en el Admin Central de Magnolia**.
 
-## Funcionamiento :chart_with_upwards_trend:
+## ¿Qué hace? :chart_with_upwards_trend:
+
+La aplicación toma datos de la máquina dónde se ejecuta y los muestra por pantalla mediante gráficas y tablas usando VAADIN tal y como se puede observar en las capturas.
+
+## ¿Cómo funciona? :chart_with_upwards_trend:
+
+La aplicación utiliza el módulo scheduler propio de Magnolia para ejecutar un trabajo planificado cada más o menos, 30 segundos. Este trabajo se encarga de sondear los recursos usados por la aplicación y guardarlos en memoria.
+
+Una vez almacenados dichos recursos, se introducen en gráficas interactivas usando Highcharts.js, al igual que el módulo "Google Analytics" de Magnolia.
+
+Además, estos datos son recogidos en una tabla usando Vaadin. Para conseguir el refresco tanto de la tabla como de la gráfica, hemos hecho uso del paralelismo en Java 7.
 
 ## Capturas :camera:
 

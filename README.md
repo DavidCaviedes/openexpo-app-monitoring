@@ -10,7 +10,7 @@ Este repositorio recoge un proyecto completo con la versión _Magnolia Community
 
 La aplicación toma datos de la máquina dónde se ejecuta y los muestra por pantalla mediante gráficas y tablas usando VAADIN tal y como se puede observar en las capturas.
 
-## ¿Cómo funciona? :chart_with_upwards_trend:
+## ¿Cómo funciona? :bulb:
 
 La aplicación utiliza el módulo scheduler propio de Magnolia para ejecutar un trabajo planificado cada más o menos, 30 segundos. Este trabajo se encarga de sondear los recursos usados por la aplicación y guardarlos en memoria.
 

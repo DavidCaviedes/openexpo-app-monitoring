@@ -2,12 +2,13 @@
 
 # APP MONITORING
 
-## Retos Digitales Magnolia Community 2017
+## Retos Digitales Magnolia Community 2017 [#RDMagnolia](https://www.magnolia-cms.com/about/news-events/events/rd-desarrolladores-2017.html)
 
 Este repositorio recoge un proyecto completo con la versión Magnolia Community Edition (CE) y un módulo con la aplicación creada para participar en el RETO VAADIN: Demuestra qué sabes de Vaadin en el Admin Central de Magnolia.
 
-## OpenExpo 2017 :rocket:
+## Funcionamiento
 
+## Capturas
 
 ![Tabla](https://raw.githubusercontent.com/DavidCaviedes/openexpo-app-monitoring/master/openexpo-app-monitoring/src/main/resources/img/details.png)
 

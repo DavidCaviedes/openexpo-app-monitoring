@@ -1,4 +1,5 @@
-![magnolia-logo](https://www.magnolia-cms.es/.resources/corporate-website-2015/webresources/img/logo/magnolia_logo.png)![openexpo-logo](http://www.openexpo.es/wp-content/uploads/2017/03/openexpo-logotipo2-1.png)
+![magnolia-logo](https://raw.githubusercontent.com/DavidCaviedes/openexpo-app-monitoring/master/openexpo-app-monitoring/src/main/resources/img/header.png)
+![magnolia-logo](https://www.magnolia-cms.es/.resources/corporate-website-2015/webresources/img/logo/magnolia_logo.png)
 
 # APP MONITORING
 

@@ -14,9 +14,7 @@ La aplicación toma datos de la máquina dónde se ejecuta y los muestra por pan
 
 La aplicación utiliza el módulo scheduler propio de Magnolia para ejecutar un trabajo planificado cada más o menos, 30 segundos. Este trabajo se encarga de sondear los recursos usados por la aplicación y guardarlos en memoria.
 
-Una vez almacenados dichos recursos, se introducen en gráficas interactivas usando Highcharts.js, al igual que el módulo "Google Analytics" de Magnolia.
-
-Además, estos datos son recogidos en una tabla usando Vaadin. Para conseguir el refresco tanto de la tabla como de la gráfica, hemos hecho uso del paralelismo en Java 7.
+Una vez almacenados dichos recursos, se introducen en gráficas interactivas usando Highcharts.js y son recogidos en una tabla creada exclusivamente usando Vaadin. Para conseguir el refresco tanto de la tabla como de la gráfica, hemos hecho uso del paralelismo en Java 7.
 
 ## Capturas :camera:
 

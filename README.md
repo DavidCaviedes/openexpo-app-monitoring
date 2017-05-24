@@ -7,4 +7,4 @@
 Este repositorio recoge un proyecto completo con la versión Magnolia Community Edition (CE) y un módulo con la aplicación creada para participar en el RETO VAADIN: Demuestra qué sabes de Vaadin en el Admin Central de Magnolia.
 
 
-![openexpo-logo](/openexpo-app-monitoring/openexpo-app-monitoring/src/main/resources/img/details.png)
+![openexpo-logo](https://raw.githubusercontent.com/DavidCaviedes/openexpo-app-monitoring/master/openexpo-app-monitoring/src/main/resources/img/details.png)

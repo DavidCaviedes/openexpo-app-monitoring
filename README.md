@@ -8,10 +8,14 @@ Este repositorio recoge un proyecto completo con la versión _Magnolia Community
 
 ## Funcionamiento :chart_with_upwards_trend:
 
-## 
+## Instalación
 
 ## Capturas :camera:
 
 ![Tabla](https://raw.githubusercontent.com/DavidCaviedes/openexpo-app-monitoring/master/openexpo-app-monitoring/src/main/resources/img/details.png)
 
 ![Grafica](https://raw.githubusercontent.com/DavidCaviedes/openexpo-app-monitoring/master/openexpo-app-monitoring/src/main/resources/img/graph.png)
+
+
+> A program is never less than 90% complete, and never more than 95% complete. 
+- Terry Baker
